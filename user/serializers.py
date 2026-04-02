@@ -1,4 +1,4 @@
-from django.contrib.auth import(
+from django.contrib.auth import (
     get_user_model,
     authenticate
 )
