@@ -42,7 +42,7 @@ class MovieSerializer(serializers.ModelSerializer):
             "actors",
             "image"
         )
-        extra_kwargs={
+        extra_kwargs = {
             "image": {
                 "read_only": True
             }
@@ -73,7 +73,7 @@ class MovieDetailSerializer(MovieSerializer):
             "actors",
             "image"
         )
-        extra_kwargs={
+        extra_kwargs = {
             "image": {
                 "read_only": False
             }
