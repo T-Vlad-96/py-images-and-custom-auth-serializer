@@ -75,7 +75,7 @@ class MovieDetailSerializer(MovieSerializer):
         )
         extra_kwargs = {
             "image": {
-                "read_only": False
+                "read_only": True
             }
         }
 
